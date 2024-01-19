@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image:  url("images/index.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+  font-family: 'Bangers', system-ui;
+}
+h1 {
+  text-align: center;
+  font-size: 8rem;
+  color: #f8b400;
+  text-shadow: 5px 5px 8px #004445;
+  transition: font-size 0.5s
+}
+
+h1:hover {
+    font-size: 9rem;
+    text-shadow: 2px 2px 3px darkred;
+}
+
+label, input, button {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  width: 60%; 
+}
+
+#nameplease {
+    background-color: #2c786c;
+    border: 5px solid #004445;
+    opacity: 0.9;
+    width: 30%;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    color: #faf5e4;
+    font-size: 3rem;
+    text-shadow: 0px 0px 3px whitesmoke;
+    margin-bottom: 5rem;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: center;
+  box-shadow: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input, button {
+  margin-top: 1rem;
+  padding: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  width: 250px; 
+  box-sizing: border-box;
+  border: 1px solid #0056b3;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #004445;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
