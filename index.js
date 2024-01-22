@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (playerName !== '') {
       console.log(window.location.href);
       sessionStorage.setItem('playerName', playerName);
-      window.location.href = 'game.html';
+      window.location.href = window.location.href + '/game.html';
     } else {
       alert('Please enter your name.');
   }
