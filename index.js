@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const playerNameInput = document.getElementById('playerName');
 
   function launchGame() {
+    debugger;
     const playerName = playerNameInput.value.trim();
     if (playerName !== '') {
       console.log(window.location.href);
