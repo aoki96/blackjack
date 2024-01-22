@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const playerName = playerNameInput.value.trim();
     if (playerName !== '') {
       sessionStorage.setItem('playerName', playerName);
-      window.location.href = 'game.html';
+      window.location.href = './game.html';
     } else {
       alert('Please enter your name.');
   }
